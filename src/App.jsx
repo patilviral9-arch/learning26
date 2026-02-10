@@ -27,6 +27,7 @@ import { Usestatedemo2 } from './Components/Usestatedemo2'
 import { Usestatedemo3 } from './Components/Usestatedemo3'
 import { Functiondemo1 } from './Components/Functiondemo1'
 import { Employees } from './Components/Employees'
+import { Student } from './Components/Student'
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
       <Route path='/Usestatedemo2' element={<Usestatedemo2/>}></Route>
       <Route path='/Usestatedemo3' element={<Usestatedemo3/>}></Route>
       <Route path='/Employees' element={<Employees/>}></Route>
+      <Route path='/Student' element={<Student/>}></Route>
       <Route path='/*'element={<ErrorNotFound/>}></Route>
     </Routes>
     <Footercomponent></Footercomponent>
