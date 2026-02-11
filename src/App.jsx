@@ -28,7 +28,8 @@ import { Usestatedemo3 } from './Components/Usestatedemo3'
 import { Functiondemo1 } from './Components/Functiondemo1'
 import { Employees } from './Components/Employees'
 import { Student } from './Components/Student'
-import { Input } from './Components/Input'
+import { Inputdemo1 } from './Components/input/Inputdemo1'
+import { Inputdemo2 } from './Components/input/Inputdemo2'
 
 
 function App() {
@@ -60,7 +61,8 @@ function App() {
       <Route path='/Usestatedemo3' element={<Usestatedemo3/>}></Route>
       <Route path='/Employees' element={<Employees/>}></Route>
       <Route path='/Student' element={<Student/>}></Route>
-      <Route path='/input' element={<Input/>}></Route>
+      <Route path='/inputdemo1' element={<Inputdemo1/>}></Route>
+      <Route path='/inputdemo2' element={<Inputdemo2/>}></Route>
       <Route path='/*'element={<ErrorNotFound/>}></Route>
     </Routes>
     <Footercomponent></Footercomponent>
