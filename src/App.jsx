@@ -35,6 +35,10 @@ import { Formdemo2 } from './Components/form/Formdemo2'
 import { Formdemo3 } from './Components/form/Formdemo3'
 import { Formdemo4 } from './Components/form/Formdemo4'
 import { Formdemo5 } from './Components/form/Formdemo5'
+import { Formdemo6 } from './Components/form/Formdemo6'
+import { Formdemo7 } from './Components/form/Formdemo7'
+import { Formdemo8 } from './Components/form/Formdemo8'
+import { Formdemo9 } from './Components/form/Formdemo9'
 
 
 function App() {
@@ -73,6 +77,10 @@ function App() {
       <Route path='/Formdemo3' element={<Formdemo3/>}></Route>
       <Route path='/Formdemo4' element={<Formdemo4/>}></Route>
       <Route path='/Formdemo5' element={<Formdemo5/>}></Route>
+      <Route path='/Formdemo6' element={<Formdemo6/>}></Route>
+      <Route path='/Formdemo7' element={<Formdemo7/>}></Route>
+      <Route path='/Formdemo8' element={<Formdemo8/>}></Route>
+      <Route path='/Formdemo9' element={<Formdemo9/>}></Route>
       <Route path='/*'element={<ErrorNotFound/>}></Route>
     </Routes>
     <Footercomponent></Footercomponent>
