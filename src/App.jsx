@@ -39,6 +39,9 @@ import { Formdemo6 } from './Components/form/Formdemo6'
 import { Formdemo7 } from './Components/form/Formdemo7'
 import { Formdemo8 } from './Components/form/Formdemo8'
 import { Formdemo9 } from './Components/form/Formdemo9'
+import { Apidemo1 } from './Components/api/Apidemo1'
+import { Apidemo2 } from './Components/api/Apidemo2'
+import { Apidemo3 } from './Components/api/Apidemo3'
 
 
 function App() {
@@ -81,6 +84,9 @@ function App() {
       <Route path='/Formdemo7' element={<Formdemo7/>}></Route>
       <Route path='/Formdemo8' element={<Formdemo8/>}></Route>
       <Route path='/Formdemo9' element={<Formdemo9/>}></Route>
+      <Route path='/Apidemo1' element={<Apidemo1/>}></Route>
+      <Route path='/Apidemo2' element={<Apidemo2/>}></Route>
+      <Route path='/Apidemo3' element={<Apidemo3/>}></Route>
       <Route path='/*'element={<ErrorNotFound/>}></Route>
     </Routes>
     <Footercomponent></Footercomponent>
