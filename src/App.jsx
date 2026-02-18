@@ -42,6 +42,10 @@ import { Formdemo9 } from './Components/form/Formdemo9'
 import { Apidemo1 } from './Components/api/Apidemo1'
 import { Apidemo2 } from './Components/api/Apidemo2'
 import { Apidemo3 } from './Components/api/Apidemo3'
+import { Omdbsearch } from './Components/api/Omdbsearch'
+import { Moviedetails } from './Components/api/Moviedetails'
+import { Apidemo4 } from './Components/api/Apidemo4'
+import { Formdemo10 } from './Components/form/Formdemo10'
 
 
 function App() {
@@ -87,9 +91,13 @@ function App() {
       <Route path='/Apidemo1' element={<Apidemo1/>}></Route>
       <Route path='/Apidemo2' element={<Apidemo2/>}></Route>
       <Route path='/Apidemo3' element={<Apidemo3/>}></Route>
+      <Route path='/Apidemo4' element={<Apidemo4/>}></Route>
+      <Route path='/Omdbsearch' element={<Omdbsearch/>}></Route>
+      <Route path="/movie/:id" element={<Moviedetails/>}></Route>
+      <Route path='/Formdemo10' element={<Formdemo10/>}></Route>
       <Route path='/*'element={<ErrorNotFound/>}></Route>
     </Routes>
-    <Footercomponent></Footercomponent>
+    {/* <Footercomponent></Footercomponent> */}
   </div>
   )
 }
