@@ -27,8 +27,8 @@ export const Formdemo10 = () => {
 
   return (
     <div style={{ textAlign: "center" }}>
+      
       <h2>Formdemo10</h2>
-
       <form onSubmit={handleSubmit(submitHandler)}style={{ width: '600px', margin: 'auto' }}>
 
         <div className="form-group">
@@ -65,6 +65,7 @@ export const Formdemo10 = () => {
             <div>{errors.age?.message}</div>
             <div>{errors.isActive?.message}</div>
          </div>
+
     </div>
   )
 }
